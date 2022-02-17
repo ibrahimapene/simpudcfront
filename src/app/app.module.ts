@@ -18,6 +18,11 @@ import { FormsComponent } from './pages/forms/forms.component';
 import { TypographyComponent } from './pages/typography/typography.component';
 import { MapsComponent } from './pages/maps/maps.component';
 import { NotificationsComponent } from './pages/notifications/notifications.component';
+import { OrganigrammeComponent } from './pages/organigramme/organigramme/organigramme.component';
+import { CourrierComponent } from './pages/courriers/courrier/courrier.component';
+import { ProjetComponent } from './pages/projet/projet.component';
+import { MissionComponent } from './pages/mission/mission.component';
+import { UserComponent } from './pages/user/user.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +35,12 @@ import { NotificationsComponent } from './pages/notifications/notifications.comp
     FormsComponent,
     TypographyComponent,
     MapsComponent,
-    NotificationsComponent
+    NotificationsComponent,
+    OrganigrammeComponent,
+    CourrierComponent,
+    ProjetComponent,
+    MissionComponent,
+    UserComponent
   ],
   imports: [
     BrowserModule,
